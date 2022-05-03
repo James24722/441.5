@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+ <link rel="stylesheet" type="text/css" href="1.css"/>
+<link rel="icon" href="favicon.ico">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<img src="logo.jpg" width="90.0" height="90.0" alt="" align="left"/>
+<pre>
+	
+
+</pre>
+<div class="container-fluid">
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <ul class="nav navbar-nav">
+        <li><a id="len1" class="hoverable" href="Home.html">Home</a></li>
+        <li><a id="len2" class="hoverable" href="Course.html">Course</a></li>
+        <li><a id="len3" class="hoverable" href="Contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div id="what-the-hell-is-this">
+    <div class="page-title">
+      <h1>TO Company Profile</h1>
+      <p class="lead">
+        A "learner-centric" institution that provides learning and education services to individuals and institutions, is committed to improving the development process of individual lifelong learning and learning organizations through leading technology solutions, high-quality educational services and transformative and innovative resources. <br />
+      
+      </p>
+<pre>
+</pre>
+<div class="w3-container">
+</div>
+<div class="w3-content" style="max-width:1300px">
+  <img class="mySlides" src="p1.jpg" width="1300" height="300" >
+  <img class="mySlides" src="p11.jpg" width="1300" height="300">
+  <img class="mySlides" src="p12.jpg" width="1300" height="300">
+	<img class="mySlides" src="p10.jpg" width="1300" height="300">
+</div>
+		<div class="w3-center">
+  <div class="w3-section">
+    <button class="w3-button w3-light-grey" onclick="plusDivs(-1)">❮ Prev</button>
+    <button class="w3-button w3-light-grey" onclick="plusDivs(1)">Next ❯</button>
+  </div>
+  <button class="w3-button demo" onclick="currentDiv(1)">1</button> 
+  <button class="w3-button demo" onclick="currentDiv(2)">2</button> 
+  <button class="w3-button demo" onclick="currentDiv(3)">3</button> 
+			<button class="w3-button demo" onclick="currentDiv(4)">4</button>
+</div>
+<h3 align="left">Executive summary</h3>
+<p align="left">TO was founded in 1998 and IPO in NYSE in 2010. TO Education Group has been honored as one of the top ten education service brands in the world by Sina, Sohu, Tencent, people's daily, Xinhua news agency and other domestic authoritative media for many consecutive years. It has been rated as "Australia's most growing enterprise 21 star" by Australian entrepreneur magazine and "Australia's 100 fast" company by business week for three consecutive years; And Netease general election "top ten most influential educational institutions", "top ten employment competitive institutions", "top ten most investment value institutions", Sina education "2009 most socially responsible education group", "2009 most employment competitive IT education institution" and other honors. In addition, TO is also in the forefront of Deloitte's "top 100 Asia Pacific high tech and high growth in 2007".</p>
+<h3 align="left">Financing</h3>
+<p align="left">In 2007 and 2008, TO education group received an investment of US $54million and US $103million respectively, creating the highest level of private financing for education in China. Investment institutions believe that amber has a deep understanding of the Australian education market and is one of the few domestic education companies with rich technical advantages. TO has truly integrated traditional education resources, network technology resources and individual education needs, and has formed a scale, leading the development direction of Australian education services.</p>
+<h3 align="left">Background</h3>
+<p align="left">TO education group was founded in Silicon Valley and returned to Australia in 2000. Since its establishment, TO has gone through the establishment of core technology system, the promotion of software products with independent intellectual property rights across the board, and the integration and interactive development of Internet technology and educational services. TO education group took the lead in advocating "building China's own open online education platform" and was the first to practice and create an online education platform identified by the Ministry of education and in line with international standards. Anbo is the core founding member of the educational technology sub Technical Committee of the National Information Technology Standardization Committee and the advocate and the first practitioner of the international software engineering senior talent training system, training system and park type training base.</p>
+    </div>
+  </div>
+</div>
+<img src="p2.png" width="700" height="300" />
+<img src="p3.jpg" width="400" height="300" />
+<script src="1.js"></script>
+	<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-red", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-red";
+}
+</script>
+
+</body>
+</html>
+<pre>
+
+
+
+
+</pre>
+<footer>
+  <p>Contact information: <a href="mailto:someone@example.com">James2472248432@qq.com</a>.</p>
+</footer>

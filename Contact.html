@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+ <link rel="stylesheet" type="text/css" href="2.css"/>
+<link rel="icon" href="favicon.ico">
+<img src="logo.jpg" width="90.0" height="90.0" alt="" align="left"/>
+<script>
+function validateForm(){
+var x=document.forms["myForm"]["fname"].value;
+if (x==null || x==""){
+  alert("Last name must be filled in");
+  return false;
+  }
+// James/ZhuangBiao 2472248432@qq.com .After your 4 boxes are entered, you can jump to a mailbox, James's personal mailbox
+//Determine if Lastnames is empty
+var y=document.forms["myForm"]["yname"].value;
+if (y==null || y==""){
+  alert("First name must be filled in");
+  return false;
+  }
+//Determine if First name is empty
+var a=document.forms["myForm"]["Ename"].value;
+if (a==null || a==""){
+  alert("English name must be filled in");
+  return false;
+  }
+//Determine if English name is empty
+var password=document.myform.password.value;  
+if(password.length<6){  
+  alert("Password must be at least 6 characters long.");  
+  return false;  
+  }  
+}
+//Determine if the entered password information reaches 6 digits
+</script>
+
+<pre>
+
+
+</pre>
+<div class="container-fluid">
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <ul class="nav navbar-nav">
+         <li><a id="len1" class="hoverable" href="Home.html">Home</a></li>
+        <li><a id="len2" class="hoverable" href="Course.html">Course</a></li>
+        <li><a id="len3" class="hoverable" href="Contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+<form name="myForm"   action="mailto:2472248432@qq.com" onsubmit="return validateForm()" method="post">
+<pre>
+</pre>
+Last name: <input type="text" name="fname">
+<pre>
+</pre>
+First name: <input type="text" name="yname">
+<pre>
+</pre>
+English name: <input type="text" name="Ename">
+<pre>
+</pre>
+Password: <input type="password" name="password">
+<pre>
+</pre>
+<input type="submit" value="sumit">
+<pre>
+</pre>
+</form>	
+<pre></pre>
+	  <a href="https://street-map.gosur.com/cn/?ll=-27.909015393730485,153.3424176304892&z=18.535185895673944&t=streets"><img src="p8.png" width="1293" height="581" alt="" />
+		</a>
+		<p>Click on the image to see the detailed page!</p>
+<pre>
+
+
+</pre>
+    </div>
+  </div>
+</div>
+	<style>style="margin-bottom: 0px; font-stretch: normal; line-height: normal; font-family: "PingFang TC"; color: rgb(38, 38, 38);"
+		</style>
+	<img src="p9.png" width="1293" height="581" alt=""/>
+	<h1 align="left">TO</h1>
+<p align="left">Address: 12th floor, Building 1, Chang'an Center, Financial Street, Shijingshan District, Beijing</p>
+	<p align="left">Postal code: 00043</p>
+	<p align="left">Tel:010-62068000(Working time: 9:00-18:00)</p>
+	<p align="left">Fax: 010-62068100</p>
+<script src="1.js"></script>
+
+</body>
+</html>
+<pre>
+
+
+
+
+</pre>
+<footer>
+  <p>Contact information: <a href="mailto:someone@example.com">James2472248432@qq.com</a>.</p>
+</footer>
